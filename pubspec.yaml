@@ -1,0 +1,61 @@
+name: traffic_slide
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #UI Kram und Icons
+  cupertino_icons: ^1.0.2
+  google_fonts: 2.2.0
+  lottie: ^1.2.1
+  rive: ^0.7.22
+  
+
+  #Stacked State Management
+  auto_route: ^3.2.2
+  stacked: ^2.2.8
+  stacked_services: ^0.8.16
+  observable_ish: ^3.0.1
+
+  #Data Models
+  freezed_annotation: ^1.1.0
+  json_annotation: ^4.4.0
+
+  #Flame Engine
+  flame: ^1.0.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^1.0.0
+
+  build_runner: ^2.1.7
+  stacked_generator: ^0.5.7
+  auto_route_generator: ^3.2.1
+
+  #Data Models
+  freezed: ^1.1.1
+  json_serializable: ^6.1.4
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/

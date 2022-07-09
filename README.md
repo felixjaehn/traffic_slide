@@ -8,6 +8,4 @@ and wanted to implement something similar into my slide puzzle based game. The r
 
 A race car escapes the police, and gets hindered by traffic, which has to be removed by the player. If the player does this fast enough the race car may escape!
 
-## Try it out!
-You can try it out at https://felixjaehn.github.io/#/
 
